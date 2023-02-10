@@ -1,8 +1,26 @@
 body{
-    background: rgb(36,32,103);
-    background: linear-gradient(135deg, rgba(36,32,103,1) 0%, rgba(40,97,133,1) 60%, rgba(0,212,255,1) 100%);
-    background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 100%;
+    background: #6EB3D9;
+    background: -webkit-linear-gradient(top left, #6EB3D9, #833479);
+    background: -moz-linear-gradient(top left, #6EB3D9, #833479);
+    background: linear-gradient(to bottom right, #6EB3D9, #833479);
+}
+
+h1{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    color: black;
+    border: black solid 5px;
+    border-radius: 20px;
+    background: rgba(245, 245, 245, 0.397);
+}
+
+p{
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
 }
 
 .botonMagico{
@@ -36,6 +54,13 @@ body{
     100%{background-position: 0 0;}
 }
 
-.copiar{
-    margin: 10px;
+.centrar{
+    display: grid;
+    place-items: center;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    margin: 20px;
 }

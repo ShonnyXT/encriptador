@@ -12,32 +12,40 @@
 
     <title>Encriptador</title>
 </head>
-<body class="container-fluid">  
-    <header class="container">
-        <h1 class="h1 text-dark display-1">Bienvenidos</h1>
+<body class="container text-center">  
+    <header class="container"> 
+        <h1 class="display-1 text-center m-5">Encriptador de Textos</h1>
     </header>
 
-    <article class="container row">
+    <article class="container row text-center">
         <!--tabla1-->
         <!-- <p class="container badge bg-warning text-dark">Ingrese el texto a encriptar</p> -->
         <section class="container col">
-            <textarea class="textarea1 form-control" id="" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            <p>Encriptación y desencriptación de textos</p>
+            <textarea class="textarea1 form-control" id="" cols="20" rows="20" placeholder="Ingrese el texto aquí"></textarea>
             <!--botones-->
-            <div class="container">
+            <div class="container m-3">
                 <button class="encriptador botonMagico" onclick="boton(0,1)">Encriptar</button>
                 <button class="desencriptador botonMagico" onclick="boton(1,0)">Desencriptar</button>
             </div>
         </section>
         <!--tabla2-->
-        <section class="container-fluid col">
-            <textarea class="textarea2 form-control" id="" cols="30" rows="10"></textarea>
-            <div>
-                <button class="copiar btn btn-outline-primary" onclick="copiar()">Copiar</button>
+        <section class="container col">
+            <p>Resultado</p>
+            <textarea class="textarea2 form-control" id="" cols="20" rows="20"></textarea>
+            <div class="container centrar m-3">
+                <button class="copiar botonMagico" onclick="copiar()">Copiar</button>
             </div>
         </section>
     </article>
 
-    <footer></footer>
+    <footer>
+        <div class="conteiner">
+            <a href="https://github.com/ShonnyXT?tab=repositories" target="_blank"><img class="logo" src="images/github.png" alt="logo de github"></a>
+            <a href="https://www.linkedin.com/in/jonatan-eduardo-mamani-dev0" target="_blank"><img class="logo" src="images/linkedin.png" alt="logo de linkedin"></a>
+        </div>
+        <p class="centrar">Links a mis redes</p>
+    </footer>
 
     <!--bootstrap.js-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
